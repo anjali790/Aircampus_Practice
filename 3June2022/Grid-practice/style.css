@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 200px 200px 100px;
+    grid-gap:20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header{
+    background-color: crimson;
+    grid-column: 1/-1;
+}
+.aside{
+    background-color: aqua;
+    grid-row: 2/-2;
+}
+.article{
+    background-color: rgb(113, 161, 64);
+
+}
+.section{
+    background-color: blueviolet;
+    grid-column: 2/-1;
+}
+.footer{
+    background-color: cornflowerblue;
+    grid-column: 1/-1;
+}

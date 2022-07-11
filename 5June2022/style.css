@@ -1,0 +1,36 @@
+*{
+    text-transform: capitalize;
+}
+header{
+    text-align: center;
+    background-color: rgb(250, 247, 247);
+    border: 2px solid lightseagreen;
+}
+.container2{
+    height: 60%;
+    width: 48%;
+    float: left;
+    border: 2px solid rgb(216, 241, 249);
+    margin: 10px;
+}
+.header-3{
+    text-align:left ;
+    margin: 8px;
+    background-color:lightblue;
+    border: 2px solid rgb(116, 209, 240);
+}
+.container3{
+    height: 60%;
+    width: 48%;
+    float: right;
+    border: 2px solid rgb(216, 241, 249);
+    margin: 10px;
+}
+.img,.img2{
+    float: left;
+    margin: 10px;
+}
+.img3,.img4{
+    float: right;
+    margin: 10px;
+}

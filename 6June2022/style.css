@@ -1,0 +1,35 @@
+@keyframes practice1{
+    0% {background-color:blue;}
+    25% {background-color: yellow;}
+    50% {background-color: crimson;}
+    100%{background-color: green;}
+}
+.div1{
+width: 200px;
+height: 200px;
+background-color: blue;
+animation-name: practice1;
+animation-duration: 5s;
+}
+
+
+/* @keyframes practice2{
+    0% {background-color: violet;
+       left: 0px; top: 0px;}
+       25%{background-color: orangered;
+    left: 200px; top: 0px;}
+    75%{background-color: rgb(8, 79, 79);
+    left: 0px; top: 200px;}
+    100%{background-color: red; 
+    left: 0px; top: 0px;}
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    background-color:violet ;
+    position: relative;
+    animation-name: practice2;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+} */
