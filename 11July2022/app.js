@@ -9,3 +9,8 @@ console.log(array);
 
 
 
+let ages=[14,18,23,20,16];
+let ageArray=ages.filter(function (age){
+    return age>=18;
+})
+console.log(ageArray);
