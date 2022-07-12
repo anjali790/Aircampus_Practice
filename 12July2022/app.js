@@ -52,7 +52,3 @@ let names = ['anjali', 'shalini', 'divya', 'ankita'];
 console.log(names.some(function (name){
     return name.length>6;
 }))
-
-
-
-
