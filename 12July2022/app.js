@@ -9,6 +9,7 @@ console.log("rows of matrix",arrayMatrix.length);
 //Number of columns:-
 console.log("columns of matrix",arrayMatrix[0].length);
 
+//Elements of matrix:-
 for(let i=0; i<arrayMatrix.length; i++){
     for(let j=0; j<arrayMatrix[0].length; j++){
         console.log(arrayMatrix[i][j]);
