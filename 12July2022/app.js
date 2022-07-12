@@ -26,3 +26,11 @@ for(let i=0; i<arrayMatrix.length; i++){
         console.log(`${i}${j}`);
     }
 }
+
+
+
+//Every:-It will all values and compare if all the values passes given condition then it return true else false.
+let nums = [1,5,4,6,7,8];
+console.log(nums.every(function (num){
+    return num > 6;
+}))
