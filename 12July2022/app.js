@@ -18,3 +18,11 @@ for(let i=0; i<arrayMatrix.length; i++){
 
 //Print matrix:-
 console.log(arrayMatrix);
+
+
+//Index of element of matrix:-
+for(let i=0; i<arrayMatrix.length; i++){
+    for(let j=0; j<arrayMatrix[0].length; j++){
+        console.log(`${i}${j}`);
+    }
+}
