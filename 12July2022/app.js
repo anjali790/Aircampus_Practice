@@ -28,7 +28,7 @@ for(let i=0; i<arrayMatrix.length; i++){
 }
 
 
-
+//--------------------------------------------------------------------------------------------------------------------------
 //Every:-It will take all values and compare if all the values passes the given condition then it return true else false.
 let nums = [1,5,4,6,7,8];
 console.log(nums.every(function (num){
@@ -38,9 +38,21 @@ console.log(nums.every(function (num){
 
 
 
-
+//--------------------------------------------------------------------------------------------------------------------------
 //Some:-It will take all values and compare if any one values passes the given condition then it return true else false.
 let numbers = [1,5,4,6,7,8];
-console.log(numbers.every(function (num){
+console.log(numbers.some(function (num){
     return num > 7;
 }));
+
+
+
+
+let names = ['anjali', 'shalini', 'divya', 'ankita'];
+console.log(names.some(function (name){
+    return name.length>6;
+}))
+
+
+
+
