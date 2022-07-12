@@ -6,4 +6,6 @@ let arrayMatrix = [[1,2,3,4],
 //Number of rows:-
 console.log("rows of matrix",arrayMatrix.length);
 
-//Number
+//Number of columns:-
+console.log("columns of matrix",arrayMatrix[0].length);
+
