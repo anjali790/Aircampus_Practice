@@ -15,3 +15,6 @@ for(let i=0; i<arrayMatrix.length; i++){
         console.log(arrayMatrix[i][j]);
     }
 }
+
+//Print matrix:-
+console.log(arrayMatrix);
