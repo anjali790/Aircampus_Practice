@@ -29,8 +29,18 @@ for(let i=0; i<arrayMatrix.length; i++){
 
 
 
-//Every:-It will all values and compare if all the values passes given condition then it return true else false.
+//Every:-It will take all values and compare if all the values passes the given condition then it return true else false.
 let nums = [1,5,4,6,7,8];
 console.log(nums.every(function (num){
     return num > 6;
-}))
+}));
+
+
+
+
+
+//Some:-It will take all values and compare if any one values passes the given condition then it return true else false.
+let numbers = [1,5,4,6,7,8];
+console.log(numbers.every(function (num){
+    return num > 7;
+}));
