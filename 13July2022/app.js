@@ -141,6 +141,21 @@ for(let i=0; i<array.length; i++){
 
 
 //Binary search:-
+let binaryArray = [12,13,24,78,97];
+let start = 0;
+let num=13;
+let end = binaryArray.length;
+while(start <= end){
+    let middle = Math.floor((start+end)/2);
+    if(binaryArray[middle] == num){
+        console.log(middle);
+        break;
+    }else if(num > binaryArray[middle]){
+        start=middle+1;
+    }else{
+        end=middle-1;
+    }
+}
 
 
 
