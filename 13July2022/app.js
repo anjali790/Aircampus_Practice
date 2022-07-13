@@ -62,21 +62,18 @@ console.log(sum3);
 
 //-------------------------------------------------------------------------------------------------------------
 //Sum of diagonal:-
-let matrix4 = [[1,2,3],
-               [4,5,6],
-               [7,8,9]]
+let matrix4 = [[1,2,30],
+               [4,20,6],
+               [10,8,9]]
 let row4=matrix4.length;
+let start4=matrix4.length-1;
+let sum4=0;
+for(let i=0; i<row4; i++){
+    sum4+=matrix4[i][start4];
+    start4-=1;
+}
+console.log(sum4);
  
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -136,6 +133,25 @@ for(let i=0; i<array.length; i++){
         break;
     }
 }
+
+
+
+
+
+
+
+//Binary search:-
+
+
+
+
+
+
+
+
+
+
+
 
 // let  array1= [1,2,3,4,5,6,7,8,9];
 // let num=7;
