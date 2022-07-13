@@ -20,10 +20,11 @@ console.log(sum);
 
 //----------------------------------------------------------------------------------------------------------------------------------------
 //Sum of diagonal element of a matrix:-
-let matrix2 = [[2,6,7,9],
-              [8,1,4,5],
-              [4,7,3,8],
-              [1,8,6,3]]
+//First method:-
+let matrix2 = [[2,6,7,9], //2
+              [8,1,4,5],  //1
+              [4,7,3,8],  //3
+              [1,8,6,3]]  //3
 let row2 = matrix2.length;
 let column = matrix2[0].length;
 let sum2 = 0;
@@ -41,10 +42,10 @@ console.log(sum2);
 
 
 
-
-let matrix3 = [[1,2,3],
-               [4,5,6],
-               [7,8,9]]
+//Second method:-
+let matrix3 = [[1,2,3], //1
+               [4,5,6], //5
+               [7,8,9]] //9
 let row3 = matrix3.length;
 let sum3=0
 let start3=0;
@@ -62,9 +63,9 @@ console.log(sum3);
 
 //----------------------------------------------------------------------------------------------------------------------------------------
 //Sum of diagonal:-
-let matrix4 = [[1,2,30],
-               [4,20,6],
-               [10,8,9]]
+let matrix4 = [[1,2,30], //30
+               [4,20,6], //20
+               [10,8,9]] //10
 let row4=matrix4.length;
 let start4=matrix4.length-1;
 let sum4=0;
@@ -163,10 +164,10 @@ while(start <= end){
 
 //----------------------------------------------------------------------------------------------------------------------------------------
 //Snake pattern in matrix:-
-let matrix7 = [[1,2,3,4],
-               [5,6,7,8],
-               [9,10,11,12],
-               [13,14,15,16]]
+let matrix7 = [[1,2,3,4],          //--------->
+               [5,6,7,8],          //<---------
+               [9,10,11,12],       //--------->
+               [13,14,15,16]]      //<---------
 let column7 = matrix7[0].length;
 let row7 = matrix7.length;
 
@@ -188,25 +189,22 @@ for(let i=0; i<row7; i++){
 
 
 
+//Snake pattern in matrix:-
+let matrix8 = [[1,2,3,4],          //<---------
+               [5,6,7,8],          //--------->
+               [9,10,11,12],       //<---------
+               [13,14,15,16]]      //--------->
+let column8 = matrix8[0].length;
+let row8 = matrix8.length;
 
-
-
-
-
-
-// let  array1= [1,2,3,4,5,6,7,8,9];
-// let num=7;
-// let start1=0;
-// let end= array.length-1;
-// for(let i=0; i<array1.length; i++){
-//     let middle = Math.floor(start1+end)/2;
-//     if(array[middle]==num){
-//         console.log(middle);
-//     }else if(num>array[middle]){
-//         start=middle+1;
-//     }else if(num<array[middle]){
-//         end=middle-1;
-//     }
-// }
-//for i=0 start=0 end=8 middle=4 num>middle start=middle+1=5
-//i=1 start=5 end= 8 middle=6
+for(let i=0; i<row8; i++){
+    if(i%2 !=0){
+        for(let j=0; j<column8; j++){
+            console.log(matrix7[i][j]);
+        }
+    }else{
+        for(let j=column8-1; j>=0; j--){
+            console.log(matrix7[i][[j]]);
+        }
+    }
+}
