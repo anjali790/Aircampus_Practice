@@ -52,3 +52,85 @@ for(let i=0; i<row2; i++){
     sum3 += matrix3[i][start];
 }
 console.log(sum3)
+
+
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------------------
+//Sum of diagonal:-
+let matrix4 = [[1,2,3],
+               [4,5,6],
+               [7,8,9]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//------------------------------------------------------------------------------
+//Sum of row of a given matrix:-
+let matrix5 = [[1,2,3,4],
+               [5,6,7,8],
+               [9,10,11,12],
+               [13,14,15,16]]
+let row=matrix5.length;
+let col=matrix5[0].length;
+let starts=0;
+let add=0;
+for(let i=0; i<row; i++){
+    add+=matrix5[i][starts];
+}
+console.log(add);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let array = [1,2,3,4,5,6,7,8,9,10,11,23,12,4,5,67];
+// let target = 4;
+// for(let i=0; i<array.length; i++){
+//     if(array[i]==target){
+//         console.log(i);
+//     }
+// }
+
+// let  array1= [1,2,3,4,5,6,7,8,9];
+// let num=7;
+// let start1=0;
+// let end= array.length-1;
+// for(let i=0; i<array1.length; i++){
+//     let middle = Math.floor(start1+end)/2;
+//     if(array[middle]==num){
+//         console.log(middle);
+//     }else if(num>array[middle]){
+//         start=middle+1;
+//     }else if(num<array[middle]){
+//         end=middle-1;
+//     }
+// }
+//for i=0 start=0 end=8 middle=4 num>middle start=middle+1=5
+//i=1 start=5 end= 8 middle=6
