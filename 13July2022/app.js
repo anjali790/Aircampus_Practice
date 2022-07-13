@@ -46,12 +46,13 @@ let matrix3 = [[1,2,3],
                [4,5,6],
                [7,8,9]]
 let row3 = matrix3.length;
-let start=1;
-let sum3=0;
+let sum3=0
+let start3=0;
 for(let i=0; i<row3; i++){
-    sum3 += matrix3[i][start];
+    sum3 += matrix3[i][start3];
+    start3+=1;
 }
-console.log(sum3)
+console.log(sum3);
 
 
 
@@ -64,6 +65,8 @@ console.log(sum3)
 let matrix4 = [[1,2,3],
                [4,5,6],
                [7,8,9]]
+let row4=matrix4.length;
+ 
 
 
 
@@ -123,15 +126,16 @@ console.log(sum6);
 
 
 
-
-
-// let array = [1,2,3,4,5,6,7,8,9,10,11,23,12,4,5,67];
-// let target = 4;
-// for(let i=0; i<array.length; i++){
-//     if(array[i]==target){
-//         console.log(i);
-//     }
-// }
+//--------------------------------------------------------------------------------------------------------------------------------------
+//Linear search:-
+let array = [1,2,3,4,5,6,7,8,9,10,11,23,12,4,5,67];
+let target = 4;
+for(let i=0; i<array.length; i++){
+    if(array[i]==target){
+        console.log(i);
+        break;
+    }
+}
 
 // let  array1= [1,2,3,4,5,6,7,8,9];
 // let num=7;
