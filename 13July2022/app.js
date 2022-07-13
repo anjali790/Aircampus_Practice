@@ -82,7 +82,7 @@ let matrix4 = [[1,2,3],
 
 
 //------------------------------------------------------------------------------
-//Sum of row of a given matrix:-
+//Sum of columns of a given matrix:-
 let matrix5 = [[1,2,3,4],
                [5,6,7,8],
                [9,10,11,12],
@@ -102,12 +102,19 @@ console.log(sum5);
 
 
 //-------------------------------------------------------------------------------------------------------------------------------------
-//Sum of columns of a given matrix:-
+//Sum of rows of a given matrix:-
 let matrix6 = [[1,2,3,4],
                [5,6,7,8],
                [9,10,11,12],
                [13,14,15,16]]
-let 
+let sum6=0;
+let start6=0;
+let row6=matrix6.length;
+for(let i=0; i<row6; i++){
+    sum6+=matrix6[start6][i];
+}
+console.log(sum6);
+
 
 
 
