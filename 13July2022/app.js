@@ -24,10 +24,10 @@ let matrix2 = [[2,6,7,9],
               [8,1,4,5],
               [4,7,3,8],
               [1,8,6,3]]
-let row1 = matrix2.length;
+let row2 = matrix2.length;
 let column = matrix2[0].length;
 let sum2 = 0;
-for(let i=0; i<row1; i++){
+for(let i=0; i<row2; i++){
     for(let j=0; j<column; j++){
         if(i==j){
             sum2+=matrix[i][j];
@@ -45,10 +45,10 @@ console.log(sum2);
 let matrix3 = [[1,2,3],
                [4,5,6],
                [7,8,9]]
-let row2 = matrix3.length;
+let row3 = matrix3.length;
 let start=1;
 let sum3=0;
-for(let i=0; i<row2; i++){
+for(let i=0; i<row3; i++){
     sum3 += matrix3[i][start];
 }
 console.log(sum3)
@@ -88,18 +88,26 @@ let matrix5 = [[1,2,3,4],
                [9,10,11,12],
                [13,14,15,16]]
 let row=matrix5.length;
-let col=matrix5[0].length;
 let starts=0;
-let add=0;
+let sum5=0;
 for(let i=0; i<row; i++){
-    add+=matrix5[i][starts];
+    sum5+=matrix5[i][starts];
 }
-console.log(add);
+console.log(sum5);
 
 
 
 
 
+
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+//Sum of columns of a given matrix:-
+let matrix6 = [[1,2,3,4],
+               [5,6,7,8],
+               [9,10,11,12],
+               [13,14,15,16]]
+let 
 
 
 
