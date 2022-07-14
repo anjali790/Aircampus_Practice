@@ -28,3 +28,12 @@ console.log(lname); // so here entire string get changed, i.e 'priya' with 'aara
 
 //Type of names:-
 console.log(typeof names) //string
+
+
+
+
+//Comparator in string:-
+let name1 = 'sakshi';
+let name2 = 'sakshi';
+console.log(name1 == name2); //it will return TRUE becoz string stores the value not address
+
