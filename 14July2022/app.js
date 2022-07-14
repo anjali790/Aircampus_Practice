@@ -53,5 +53,13 @@ console.log(name3 == name4); // it will return FALSE becoz array stores address 
 //----------------------------------------------------------------------------------------------------------------
 //SLICE in string:- works same as in array
 let firstName = 'anjali'
-console.log(firstName.slice(1,5)); // output:-njal
+console.log(firstName.slice(1,-1)); // output:-njal
+
+
+
+//SUBSTRING:-same as slice but it does not accept negative index
+let firstName2 = 'shubro';
+console.log(firstName2.substring(0,4)); //output:-shub
+console.log(firstName2.substring(-4,-1)); //output:-blank
+
 
