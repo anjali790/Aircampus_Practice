@@ -78,3 +78,15 @@ console.log(firstName4.toUpperCase()); //output:-ANJALI
 //toLowerCase():-
 let firstName5 = 'ShuBro';
 console.log(firstName5.toLowerCase()); //output:-shubro
+
+
+
+
+//----------------------------------------------------------------------------------------------------------------
+//TRIM:-trim()
+let firstName6 = '     Anjali     ';
+console.log(firstName6); // return as it is, with both side spaces
+console.log(firstName6.trim()); //remove space from both side of a string
+console.log(firstName6.trimStart()); // remove left side space of a string
+console.log(firstName6.trimEnd()); //remove right side space of a string
+
