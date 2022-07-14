@@ -20,3 +20,7 @@ for(let i=fname.length-1; i>=0; i--){
 let names = 'divya';
 names[0]='p';
 console.log(names); //so here we can not change 'd' with 'p' becoz we can't change each character of string
+
+let lname = 'priya';
+lname = 'aarav';
+console.log(lname); // so here entire string get changed, i.e 'priya' with 'aarav'
