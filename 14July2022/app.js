@@ -9,6 +9,6 @@ for(let i=0; i<fname.length; i++){
 }
 
 //To reverse the all chararter of a string:-
-for(let i=fname.length-1; i<=0; i--){
+for(let i=fname.length-1; i>=0; i--){
     console.log(fname[i]);
 }
