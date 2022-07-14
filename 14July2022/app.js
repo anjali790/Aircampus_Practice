@@ -66,3 +66,15 @@ console.log(firstName2.substring(-4,-1)); //output:-blank
 //SUBSTR:-substr(start index, no. of character you want)
 let firstName3 = 'anjali yadav';
 console.log(firstName3.substr(1,5)); //output:-njali
+
+
+
+
+//----------------------------------------------------------------------------------------------------------------
+//toUpperCase():-
+let firstName4 = 'AnjaLi';
+console.log(firstName4.toUpperCase()); //output:-ANJALI
+
+//toLowerCase():-
+let firstName5 = 'ShuBro';
+console.log(firstName5.toLowerCase()); //output:-shubro
