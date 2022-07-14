@@ -82,6 +82,7 @@ console.log(firstName5.toLowerCase()); //output:-shubro
 
 
 
+
 //----------------------------------------------------------------------------------------------------------------
 //TRIM:-trim()
 let firstName6 = '     Anjali     ';
@@ -90,3 +91,13 @@ console.log(firstName6.trim()); //remove space from both side of a string
 console.log(firstName6.trimStart()); // remove left side space of a string
 console.log(firstName6.trimEnd()); //remove right side space of a string
 
+
+
+
+
+//----------------------------------------------------------------------------------------------------------------
+//SPLIT:-split() method use to covert a string to an array and it returns the new array
+let news = 'A cargo train carrying 39 freight containers from Russia to India has reached Iran';
+console.log(news.split());
+console.log(news.split(" "));
+console.log(news.split(" ").length);
