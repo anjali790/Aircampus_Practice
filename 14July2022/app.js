@@ -32,8 +32,14 @@ console.log(typeof names) //string
 
 
 
-//Comparator in string:-
+//Comparator in String:-
 let name1 = 'sakshi';
 let name2 = 'sakshi';
 console.log(name1 == name2); //it will return TRUE becoz string stores the value not address
+
+
+//Comparator in Array:-
+let name3 = ['shubro'];
+let name4 = ['shubro'];
+console.log(name3 == name4); // it will return FALSE becoz array stores address not value and address is different for name3 and name4
 
