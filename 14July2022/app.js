@@ -63,3 +63,6 @@ console.log(firstName2.substring(0,4)); //output:-shub
 console.log(firstName2.substring(-4,-1)); //output:-blank
 
 
+//SUBSTR:-substr(start index, no. of character you want)
+let firstName3 = 'anjali yadav';
+console.log(firstName3.substr(1,5)); //output:-njali
