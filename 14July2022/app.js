@@ -50,3 +50,8 @@ console.log(name3 == name4); // it will return FALSE becoz array stores address 
 
 
 
+//----------------------------------------------------------------------------------------------------------------
+//SLICE in string:- works same as in array
+let firstName = 'anjali'
+console.log(firstName.slice(1,5)); // output:-njal
+
