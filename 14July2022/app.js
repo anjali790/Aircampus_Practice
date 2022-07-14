@@ -24,3 +24,7 @@ console.log(names); //so here we can not change 'd' with 'p' becoz we can't chan
 let lname = 'priya';
 lname = 'aarav';
 console.log(lname); // so here entire string get changed, i.e 'priya' with 'aarav'
+
+
+//Type of names:-
+console.log(typeof names) //string
