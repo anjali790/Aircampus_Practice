@@ -12,3 +12,11 @@ for(let i=0; i<fname.length; i++){
 for(let i=fname.length-1; i>=0; i--){
     console.log(fname[i]);
 }
+
+
+
+
+//Strings are unmutable(not changeable):- we can not change each character but we can change entire string
+let names = 'divya';
+names[0]='p';
+console.log(names); //so here we can not change 'd' with 'p' becoz we can't change each character of string
