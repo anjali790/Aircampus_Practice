@@ -208,3 +208,23 @@ for(let i=0; i<row8; i++){
         }
     }
 }
+
+
+
+
+
+// let word='dad';
+// let word1='add';
+// if(word.split('').sort().join("") == word1)
+// word.split(' ')// ['d', 'a' , 'd'] // ['dad]
+// split('')
+// split(" ")
+// let word3='hey anjali, how are you';
+// console.log(word3.split('').sort().join(''))
+// console.log(word3.split(' ').join('-hii-'));
+// console.log(word3.split(',').join(''))
+// console.log(word3.split(' '));
+// let newvar=word3.split(' ');
+// newvar[2]='what'
+// console.log(newvar,word3);
+// console.log(newvar[2]);
