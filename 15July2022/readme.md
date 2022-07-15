@@ -1,1 +1,1 @@
-<img src="output" alt="">
+<img src="output.png" alt="">
