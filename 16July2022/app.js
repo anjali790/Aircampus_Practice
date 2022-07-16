@@ -26,3 +26,9 @@ console.log(array4); //output:- [70,24,45,67,32]
 //---5---SLICE:-slice()
 let array5 = [12,34,56,78,89,90];
 console.log(array5.slice(2,4)); //outpu:-[56,78]
+
+
+//---6---SPLICE:-splice()
+let array6 = [34,57,68,90,21];
+array6.splice(1,0,10)
+console.log(array6);
