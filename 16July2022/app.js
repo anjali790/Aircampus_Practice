@@ -10,8 +10,14 @@ array2.pop();
 console.log(array2); //output:- [24,45,67]
 
 
-
 //---3---SHIFT:-shift() remove element from start of array
 let array3 = [24,45,67,32];
 array3.shift();
 console.log(array3); //output:- [45,67,32]
+
+
+
+//---4---UNSHIFT:-unshift() add element to the start of array
+let array4 = [24,45,67,32];
+array4.unshift(70);
+console.log(array4); //output:- [70,24,45,67,32]
