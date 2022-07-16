@@ -41,6 +41,22 @@ console.log(array7);
 
 
 
-//---8---
+//---8---EVERY:-every()
+let array8 = [1,5,4,6,7,8];
+console.log(array8.every(function (num){
+    return num > 6;
+}));
+
+
+
+//---9---SOME:-some()
+let array9 = [1,5,4,6,7,8];
+console.log(array9.some(function (num){
+    return num > 6;
+}));
+
+
+
+
 
 
