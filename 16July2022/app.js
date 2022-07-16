@@ -21,3 +21,8 @@ console.log(array3); //output:- [45,67,32]
 let array4 = [24,45,67,32];
 array4.unshift(70);
 console.log(array4); //output:- [70,24,45,67,32]
+
+
+//---5---SLICE:-slice()
+let array5 = [12,34,56,78,89,90];
+console.log(array5.slice(2,4)); //outpu:-[56,78]
