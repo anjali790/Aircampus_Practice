@@ -32,3 +32,15 @@ console.log(array5.slice(2,4)); //outpu:-[56,78]
 let array6 = [34,57,68,90,21];
 array6.splice(1,0,10)
 console.log(array6);
+
+
+//---7---DELETE:-
+let array7 = [1,2,3,4,5];
+array7.length=0;
+console.log(array7);
+
+
+
+//---8---
+
+
