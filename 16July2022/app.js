@@ -92,5 +92,38 @@ let arrayB = [34,98,97];
 console.log(arrayA.concat(arrayB));
 
 
+//---16---INDEX OF:-indexOf()
+let array16 = [12,45,78,98];
+console.log(array16.indexOf(78));
+
+
+//---17---LAST INDEX OF:-lastIndexOf()
+let array17 = [12,13,14,15,13];
+console.log(array17.lastIndexOf(13));
+
+
+//---18---INCLUDES:-includes()
+let array18 = [1,2,3,4,5,6];
+console.log(array18.includes(5));
+
+//---19---FILL:-fill()
+let array19 = [12,45,67,89];
+console.log(array19.fill(5));
+
+
+//---20---REDUCE:-reduce()
+let array20 = [1,5,4,6,7,8];
+let sum=0;
+console.log(array20.reduce(function (prev,curr){
+    return prev+curr;
+}));
+
+
+//---21---SORT:-sort()
+let array21 = ['divya', 'anjali', 'zeenat', 'priya', 'sushmita'];
+console.log(array21.sort());
+
+//
+
 
 
