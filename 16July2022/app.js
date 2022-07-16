@@ -57,6 +57,40 @@ console.log(array9.some(function (num){
 
 
 
+//---10---FILTER:-filter()
+let array10 = [1,5,4,6,7,8];
+console.log(array10.filter(function (num){
+    return num > 6;
+}));
+
+
+//---11---MAP:-map()
+let array11 = [1,5,4,6,7,8];
+console.log(array11.map(function (num){
+    return num**2;
+}));
+
+
+//---12---JOIN:-join()
+let array12 = [12,2,3,56,76,9];
+console.log(array12.join('-'));
+
+
+//---13---TO STRING:-toString()
+let array13 = [12,13,56,87,65];
+console.log(array13.toString());
+
+
+//---14---IS ARRAY:- Array.isArray:
+let array14 = [12,34,2,5,78];
+console.log(Array.isArray(array14));
+
+
+//---15---CONCAT:-concat()
+let arrayA = [13,25,78,90];
+let arrayB = [34,98,97];
+console.log(arrayA.concat(arrayB));
+
 
 
 
