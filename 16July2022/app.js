@@ -123,7 +123,57 @@ console.log(array20.reduce(function (prev,curr){
 let array21 = ['divya', 'anjali', 'zeenat', 'priya', 'sushmita'];
 console.log(array21.sort());
 
-//
+
+//---22---REVERSE:-reverse()
+let array22 = ['divya', 'anjali', 'zeenat', 'priya', 'sushmita'];
+console.log(array22.reverse());
 
 
+//--23---LINEAR SEARCH:-
+let array23 = [12,45,78,90,23];
+let target = 90;
+for(let i=0; i<array23.length; i++){
+    if(array23[i] == target){
+        console.log(i);
+        break;
+    }
+}
 
+
+//---24---BINARY SEARCH:-
+let binaryArray = [12,13,24,78,97];
+let start = 0;
+let num=13;
+let end = binaryArray.length;
+while(start <= end){
+    let middle = Math.floor((start+end)/2);
+    if(binaryArray[middle] == num){
+        console.log(middle);
+        break;
+    }else if(num > binaryArray[middle]){
+        start=middle+1;
+    }else{
+        end=middle-1;
+    }
+}
+
+
+//---SNAKE PATTERN:-
+let matrix7 = [[1,2,3,4],          //--------->
+               [5,6,7,8],          //<---------
+               [9,10,11,12],       //--------->
+               [13,14,15,16]]      //<---------
+let column7 = matrix7[0].length;
+let row7 = matrix7.length;
+
+for(let i=0; i<row7; i++){
+    if(i%2 ==0){
+        for(let j=0; j<column7; j++){
+            console.log(matrix7[i][j]);
+        }
+    }else{
+        for(let j=column7-1; j>=0; j--){
+            console.log(matrix7[i][[j]]);
+        }
+    }
+}
