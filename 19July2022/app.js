@@ -22,7 +22,7 @@ const circle = {
 let loc = 'location'
 console.log(circle['location']['y'],circle.location.y);
 console.log(circle[loc]['x']);
-console.log(circle.loc.x); // throw an error
+// console.log(circle.loc.x); // throw an error
 
 
 
@@ -35,3 +35,8 @@ function createSquare(side = 5){
         }
     }
 };
+let square1 = createSquare();
+console.log(square1.side,square1.draw(),square1);
+let square2 = createSquare(20);
+console.log(square2.side,square2.draw(),square2);
+
