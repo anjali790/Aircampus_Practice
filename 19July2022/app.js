@@ -1,5 +1,7 @@
 //---------------------------------------------------OBJECT------------------------------------------------------
 //In JS everything is an object.
+//Property:- Variable present inside the object is called property.
+//Method:- A function return inside a object is called method.
 //---1---
 let shubro = {
     fname : 'shubro',
