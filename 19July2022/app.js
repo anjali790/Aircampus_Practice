@@ -26,3 +26,12 @@ console.log(circle.loc.x); // throw an error
 
 
 
+//---3---
+function createSquare(side = 5){
+    return {
+        side : side,
+        draw : function(){
+            return "drawing circle";
+        }
+    }
+};
