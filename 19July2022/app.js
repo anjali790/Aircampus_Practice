@@ -19,4 +19,10 @@ const circle = {
         y : 2,
     }
 };
+let loc = 'location'
 console.log(circle['location']['y'],circle.location.y);
+console.log(circle[loc]['x']);
+console.log(circle.loc.x); // throw an error
+
+
+
