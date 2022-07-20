@@ -13,3 +13,12 @@ let person = {
     location : 'New Delhi',
 };
 console.log(Object.keys(person));
+
+
+//---3---
+let person1 = {
+    fname : 'Anjali',
+    branch : 'EEE',
+    location : 'New Delhi',
+};
+console.log(Object.values(person1));
