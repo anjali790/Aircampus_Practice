@@ -80,7 +80,3 @@ let person7 = {
     location : 'New Delhi',
 };
 console.log(Object.entries(person7).sort());
-
-
-
-
