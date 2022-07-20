@@ -17,8 +17,18 @@ console.log(Object.keys(person));
 
 //---3---
 let person1 = {
-    fname : 'Anjali',
-    branch : 'EEE',
+    fname : 'Shubro',
+    branch : 'ME',
     location : 'New Delhi',
 };
 console.log(Object.values(person1));
+
+
+//---4---
+let person2 = {
+    fname : 'Sakshi',
+    branch : 'EC',
+    location : 'New Delhi',
+};
+console.log(Object.entries(person));
+
