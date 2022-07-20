@@ -42,4 +42,15 @@ let person3 = {
 console.log(Object.keys(person3).length);
 
 
+//---6---length of an object:-
+let person4 = {
+    fname : 'Anjali',
+    branch : 'EEE',
+    location : 'New Delhi',
+};
+let count=0;
+for(let key in person4){
+    count+=1;
+}
+console.log(count);
 
