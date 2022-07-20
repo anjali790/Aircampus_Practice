@@ -30,5 +30,16 @@ let person2 = {
     branch : 'EC',
     location : 'New Delhi',
 };
-console.log(Object.entries(person));
+console.log(Object.entries(person2));
+
+
+//---5---length of an object:-
+let person3 = {
+    fname : 'Vaishali',
+    branch : 'CS',
+    location : 'New Delhi',
+};
+console.log(Object.keys(person3).length);
+
+
 
