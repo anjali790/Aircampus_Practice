@@ -64,3 +64,13 @@ let person5 = {
 console.log(Object.keys(person5).sort());
 
 
+//---8---sort values of an object:-
+let person6 = {
+    fname : 'Anjali',
+    branch : 'ME',
+    location : 'Chennai',
+};
+console.log(Object.values(person6).sort());
+
+
+
