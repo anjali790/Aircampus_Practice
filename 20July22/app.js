@@ -73,4 +73,14 @@ let person6 = {
 console.log(Object.values(person6).sort());
 
 
+//---9---
+let person7 = {
+    fname : 'Anjali',
+    branch : 'EEE',
+    location : 'New Delhi',
+};
+console.log(Object.entries(person7).sort());
+
+
+
 
