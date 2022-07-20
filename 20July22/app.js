@@ -54,3 +54,13 @@ for(let key in person4){
 }
 console.log(count);
 
+
+//---7---sort an object:-
+let person5 = {
+    fname : 'Anjali',
+    branch : 'EEE',
+    location : 'New Delhi',
+};
+console.log(Object.keys(person5).sort());
+
+
