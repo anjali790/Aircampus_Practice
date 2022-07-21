@@ -19,3 +19,17 @@ let person2 = {
 person2['country'] = 'India';
 delete person2.branch;
 console.log(person2);
+
+
+
+
+//
+let person3 = {
+    fname : 'Anjali',
+    branch : 'EEE',
+    place : 'New Delhi',
+};
+for(let key in person3){
+    console.log(key,person3[key]);
+}
+
