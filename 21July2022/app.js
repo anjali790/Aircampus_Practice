@@ -1,4 +1,4 @@
-//add property in object:-
+//---1---add property in object:-
 let person1 = {
     fname : 'Anjali',
     branch : 'EEE',
@@ -10,7 +10,7 @@ console.log(person1);
 
 
 
-//delete value from an object:-
+//---2---delete value from an object:-
 let person2 = {
     fname : 'Anjali',
     branch : 'EEE',
@@ -22,8 +22,7 @@ console.log(person2);
 
 
 
-
-//
+//---3---
 let person3 = {
     fname : 'Anjali',
     branch : 'EEE',
