@@ -7,4 +7,8 @@ let obj1 = {
 console.log(Object.keys(obj1).length);
 
 
-//---2---
+//---2---string to number:-
+let str='123';
+let num=parseInt(str)
+console.log(parseInt(str));
+console.log(typeof num);
