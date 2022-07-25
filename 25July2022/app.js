@@ -22,7 +22,16 @@ let obj3 = {
     branch: 'EEE',
     place: 'New Delhi',
 };
-console.log(Object.values(obj3).length);
+console.log(Object.values(obj3));
+
+
+//---4---
+let obj4 = {
+    name: 'Anjali',
+    branch: 'EEE',
+    place: 'New Delhi',
+};
+console.log(Object.entries(obj3));
 
 
 
