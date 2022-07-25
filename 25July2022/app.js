@@ -16,4 +16,14 @@ let obj2 = {
 console.log(Object.keys(obj2));
 
 
+//---3---
+let obj3 = {
+    name: 'Anjali',
+    branch: 'EEE',
+    place: 'New Delhi',
+};
+console.log(Object.values(obj3).length);
+
+
+
 
