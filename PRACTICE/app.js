@@ -1,3 +1,4 @@
+ //copy an object
  let person = {
     name : 'anjali',
     branch : 'eee',
@@ -8,11 +9,18 @@
 
 
 
-//setTimeout
+//setTimeout:-
 setTimeout(function(){
     console.log("calling");
 },2000);
 
 function hello(){
-    console.log("hello,world0");
+    console.log("hello,world");
 }setTimeout(hello,4000);
+
+
+
+//setInterval:-
+function interval(){
+    console.log("hey, hii");
+}(setInterval(interval,6000))
