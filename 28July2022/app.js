@@ -21,7 +21,7 @@ obj.name()
 
 
 
-// //DEEP AND SHALLOW COPY
+//DEEP AND SHALLOW COPY
 let person={
     name: 'anjali',
     branch: 'EEE',
