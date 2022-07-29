@@ -4,8 +4,6 @@ function descending(arr){
             if(arr[i]>arr[j]){
                 let x=arr[i];
                 arr[i]=arr[j];
-                
-                
                 arr[j]=x;
             }
         }
@@ -24,8 +22,6 @@ function ascending(arr){
             if(arr[i]<arr[j]){
                 let x=arr[i];
                 arr[i]=arr[j];
-                
-                
                 arr[j]=x;
             }
         }
