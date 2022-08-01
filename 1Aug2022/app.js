@@ -4,6 +4,7 @@ let child=document.querySelector(".child");
 
 
 //click-event:-
+//Capturing:-
 grandParent.addEventListener("click", ()=>{
     console.log('grandParent');
 });
@@ -17,6 +18,7 @@ child.addEventListener("click", ()=>{
 });
 
 
+//Bubbling:-
 grandParent.addEventListener("click", ()=>{
     console.log('grandParent');
 },{capture:true});
