@@ -1,0 +1,24 @@
+.grandParent{
+    height: 10rem;
+    width: 10rem;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    height: 6rem;
+    width: 6rem;
+    background-color: pink;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 3rem;
+    width: 3rem;
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
