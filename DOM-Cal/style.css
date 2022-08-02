@@ -1,0 +1,9 @@
+input[type="button"]{
+    width: 100%;
+    border-color: blueviolet;
+    border-radius:15px;
+    background-color:blueviolet ;
+    color: white;
+    height: 30px;
+};
+
