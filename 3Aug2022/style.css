@@ -10,13 +10,12 @@
     padding: 25px 15px;
     text-align: right;
     background-color: rgba(55, 55, 69, 0.667) ;
-    color: wheat;
+    color: whitesmoke;
 }
 
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* border: 2px solid black; */
 }
 
 .btn{
