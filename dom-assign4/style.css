@@ -34,9 +34,14 @@ input{
 
 .btn{
     padding: 5px;
-    width: 60px;
-    background-color: green;
+    width: 80px;
+    height: 40px;
+    background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
     border: none;
-    color: white;
     border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
 }
