@@ -54,8 +54,16 @@ function preparationOfFood(){
         setTimeout(()=>{
             console.log("preparing pavv bhaji");
             console.log("server deliver the food to the table");
-            // eatingFood();
             callback();
         },3000);
+    });
+};
+
+function eatingFood(){
+    return new Promise((resolve, rejecct)=>{
+        setTimeout(()=>{
+            console.log("eating paav bhaji");
+            resolve();
+        },2000);
     })
-}
+};
