@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to bottom, #68EACC 30%, #497BE8);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color:rgb(24, 24, 108);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.outer-box{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.add-items,.todo,.complete{
+    padding: 10px;
+    margin: 0 30px;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    color: #7b0a61;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    width: 300px;
+}
+
+.btn{
+    padding: 5px;
+    width: 60px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
