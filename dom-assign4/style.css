@@ -20,7 +20,7 @@ h1{
 
 .add-items,.todo,.complete{
     padding: 10px;
-    margin: 0 30px;
+    /* margin: 0 30px; */
     background-color: white;
     width: 400px;
     border-radius: 10px;
@@ -28,14 +28,10 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-input{
-    width: 300px;
-}
-
 .btn{
-    padding: 5px;
-    width: 80px;
-    height: 40px;
+    position: relative;
+    width: 70px;
+    height: 30px;
     background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
     border: none;
     border-radius: 10px;
@@ -44,4 +40,9 @@ input{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
+}
+
+#btn{
+    background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
+
 }
