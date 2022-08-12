@@ -16,9 +16,9 @@ btn.addEventListener("click", function(){
         let todoInput = document.createElement("input");
         let button1 = document.createElement("button");
         button1.innerText = "Edit";
+        button1.style.margin='5px';
         let button2 = document.createElement("button");
         button2.innerText = "Delete";
-
         todoOuterDiv.append(check, todoInput, button1, button2);
         todoIn.append(todoOuterDiv);
 

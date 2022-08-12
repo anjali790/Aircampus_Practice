@@ -30,19 +30,14 @@ h1{
 
 .btn{
     position: relative;
-    width: 70px;
-    height: 30px;
+    width: 60px;
+    height: 27px;
     background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
     border: none;
     border-radius: 10px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
-}
-
-#btn{
-    background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
-
 }
