@@ -68,9 +68,13 @@ function sub(){
     let nums = 1;
     return function (){
         if(nums%3==0){
-            console.log('printing');
+            console.log('printing',nums);
          }
+         console.log(nums)
+         nums+=1;
     }
 }
 let nums = sub();
+nums();
+nums();
 nums();
