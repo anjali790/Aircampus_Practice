@@ -6,9 +6,9 @@ function fname(){
  fname();
 //  console.log(name);//throw an error becoz var is function scope
 
-
+var count = 1;
 function counter(){
-    var count = 1;
+    // var count = 1;
     count++;
     console.log(count);
 }
