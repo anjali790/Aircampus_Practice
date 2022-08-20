@@ -1,3 +1,4 @@
+//--------closures------:-
 //scope:-
 function fname(){
     var name = 'anjali'
@@ -42,3 +43,18 @@ function car(){
     // console.log(car);
 }
 car();
+
+
+
+//--------------------------------------//
+function add(){
+    let num = 1;
+    // let age = 10;
+    function add2(){
+        num++;
+        return num;
+    }
+    return add2;
+}
+let res = add();
+console.log(res());
