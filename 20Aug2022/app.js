@@ -8,7 +8,7 @@ function fname(){
 
 
 
-
+//------------------------------------//
 function count(){
     var countNum = 1;
     countNum++;
@@ -20,6 +20,7 @@ count();//2
 
 
 
+//------------------------------------//
 var count = 1;
 function counter(){
     count++;
@@ -29,3 +30,15 @@ counter();//2
 counter();//3
 counter();//4
 
+
+
+//--------------------------------------//
+function car(){
+    var car = 'bmw';
+    function car2(){
+        console.log(car);
+    }
+    car2();
+    // console.log(car);
+}
+car();
