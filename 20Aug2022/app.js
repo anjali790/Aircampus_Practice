@@ -1,4 +1,4 @@
-//--------closures------:-
+//--------closures:-my returned function along with lexical variables or lexical environment is forms closures.
 //scope:-
 function fname(){
     var name = 'anjali'
@@ -49,12 +49,28 @@ car();
 //--------------------------------------//
 function add(){
     let num = 1;
-    // let age = 10;
-    function add2(){
-        num++;
+// let age = 10;
+     function add2(){
+         num++;
         return num;
     }
     return add2;
 }
 let res = add();
-console.log(res());
+console.log(res());//2
+console.log(res());//3
+
+
+
+//--------------------------------------//
+//it should print at 3rd time
+function sub(){
+    let nums = 1;
+    return function (){
+        if(nums%3==0){
+            console.log('printing');
+         }
+    }
+}
+let nums = sub();
+nums();
