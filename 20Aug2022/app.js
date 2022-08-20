@@ -4,4 +4,15 @@ function fname(){
     console.log(name);
  }
  fname();
- console.log(name);//throw an error becoz var is function scope
+//  console.log(name);//throw an error becoz var is function scope
+
+
+function counter(){
+    var count = 1;
+    count++;
+    console.log(count);
+}
+counter();
+counter();
+counter();
+
