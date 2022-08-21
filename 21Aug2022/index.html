@@ -11,6 +11,18 @@
 
 <body>
     <h1>hello welcome to testing world.......</h1>
+    <form class="input">
+        <input type="name" name="" class="inputText" placeholder="enter text here">
+        <select class="inputColor">
+            <option value="">choose color here</option>
+            <option value="yellow">yellow</option>
+            <option value="red">red</option>
+            <option value="purple">purple</option>
+            <option value="green">green</option>
+        </select>
+        <button type="submit" id="btn" onclick="addData(event)">add</button>
+    </form>
+    <button onclick="filterData()">filter</button>
     <div id="container"></div>
 
     <script src="app.js"></script>
