@@ -1,4 +1,4 @@
-//[].anjali(); throw an error
+//[].newMethod(); throw an error
 Array.prototype.newMethod = function(){
     console.log('new method');
 };
@@ -42,9 +42,37 @@ let person4 = {
     branch: 'ME',
 };
 
-let getData = function(){
-    console.log(`${this.name} branch is ${this.branch}`);
+let getData = function(place, char = 'joyful'){
+    console.log(`${this.name} branch is ${this.branch}.I'm from ${place}. I'm ${char}`);
 }
 
-getData.call(person3);
-getData.call(person4);
+getData.call(person3, 'shimla');
+getData.call(person4, 'lucknow', 'cool');
+
+
+getData.apply(person3, ['shimla', 'joyful']);
+
+
+//array of object:-
+let person5 = [
+    {
+        obj: {
+            name: 'anjali',
+            branch: 'EEE',
+        },
+        params: ['shimla', 'cool'],
+    },
+    {
+        obj: {
+            name: 'shantanu',
+            branch: 'civil',
+        },
+        params: ['shillong', 'joyful'],
+    },
+]
+
+for(let data of person5){
+    // console.log(data.obj, data.params);
+    getData.apply(data.obj, data.params);
+}
+    
