@@ -72,7 +72,9 @@ let person5 = [
 ]
 
 for(let data of person5){
+    // console.log(data);
     // console.log(data.obj, data.params);
     getData.apply(data.obj, data.params);
 }
-    
+  
+console.log(person5[1]);
