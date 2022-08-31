@@ -1,9 +1,7 @@
-let display=document.getElementById('display');
+let display=document.getElementById("display");
 let buttons=Array.from(document.getElementsByClassName("btn"));
-// console.log(buttons, typeof buttons);
 
 buttons.map((btn)=>{
-    
     btn.addEventListener('click',e=>{
         let key=(e.target.innerText);
         if(key=='A/c'){
@@ -17,37 +15,3 @@ buttons.map((btn)=>{
         }
     })
 });
-
-
-
-// function sin(){
-//     display.innerText=Math.sin(display.innerText)
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//else if(display.innerText== 'Infinity'){
-    //display.innerText='';
-
-
-
-
-

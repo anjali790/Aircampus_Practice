@@ -5,7 +5,7 @@ function fname(){
     console.log(name);
  }
  fname();
-//  console.log(name);//throw an error becoz var is function scope
+ console.log(name);//  console.log(name);//throw an error becoz var is function scope
 
 
 

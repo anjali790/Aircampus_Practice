@@ -18,6 +18,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+.btn:hover{
+    color: white;
+    background-color: rgba(55, 55, 69, 0.667);
+}
+
 .btn{
     text-align: center;
     border: 2px solid #445A;
@@ -27,7 +32,3 @@
     font-weight: bolder;
 }
 
-.btn:hover{
-    color: white;
-    background-color: rgba(55, 55, 69, 0.667);
-}

@@ -154,18 +154,34 @@ function sum1(){
 
 
 
-function num1(){
+function hello(){
   console.log("hello,how are you");
-}setTimeout(num1,5000);
+}setTimeout(hello,5000);
 
 
 
 
-// function num(){
+// function hello1(){
 //   console.log("hello,how are you");
-// }setInterval(num,5000);
-// clearInterval(num)
+// }setInterval(hello1,5000);
+// clearInterval(hello1)
+
+
+//merge two arrays:-
+let merge = (first, second)=>{
+  for(let i=0; i<second.length; i++){
+    first.push(second[i]);
+  }
+  return first;
+}
+console.log(merge([1,3,5,7],[2,4,6,8]))
 
 
 
-
+//reduce
+let array=[1,2,3,4];
+let squ=array.reduce(function(pre,curr){
+return pre*curr
+  
+});
+console.log(squ,array);

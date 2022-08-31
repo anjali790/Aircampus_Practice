@@ -78,3 +78,6 @@ for(let data of person5){
 }
   
 console.log(person5[1]);
+
+
+

@@ -7,7 +7,7 @@ const child = document.querySelector('.child');
 // console.log(child);
 
 grandParent.addEventListener('click',(event)=>{
-    console.log('grandParent');
+    console.log('grandParent',event.target.style.color="red");
     // alert('grandParent clicked');
 },{once:true});
 

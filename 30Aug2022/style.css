@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 700px;
+    animation-duration: 3s;
+    border: 10px solid grey;
+    border-radius: 30px;
+}
+
+.container:hover{
+    transform: rotate(40deg) scale(1.2);
+   
+}
+
+
+.upperDiv{
+    background-color: aliceblue;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    height: 140px;
+    font-size: 20px;    
+}
+
+.lowerDiv{
+    height: 150px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 10px solid grey;
+}
+
+.image{
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+   
+}
+
+.nameDiv h2{
+    color: white;
+    font-weight: bold;
+}

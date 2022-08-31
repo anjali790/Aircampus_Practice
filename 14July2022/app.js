@@ -101,3 +101,32 @@ let news = 'A cargo train carrying 39 freight containers from Russia to India ha
 console.log(news.split());
 console.log(news.split(" "));
 console.log(news.split(" ").length);
+
+
+
+
+// function changeArray(arr, moves){
+//     for(let i=0; i<moves.length; i++){
+//       if(arr.includes(moves[i][0])){
+//         let checkIndex = arr.indexOf(moves[i][0]);
+//         arr[checkIndex] = moves[i][1];
+//       }
+//     }
+//     return arr;
+//   }
+//   console.log(changeArray([1, 5, 7, 8]
+//   [[1, 3], [7, 9]]))
+//   exports.changeArray = changeArray
+
+
+
+
+
+let word1='god';
+let word2='dog';
+
+if(word1.split('').sort().join() == word2.split('').sort().join()){
+  console.log('word is anagram');
+}else{
+  console.log('word is not a anagram');
+}

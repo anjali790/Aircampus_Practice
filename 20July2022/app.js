@@ -49,17 +49,17 @@
 
 // console.log(array);
 
-let array=[9,8,5,3,4,10];
-for(let i=0; i<array.length; i++){
-  for(let j=0; j<i; j++){
-    if(array[i]<array[j]){
-      let x=array[i];
-      array[i]=array[j];
-      array[j]=x;
-    }
-  }
-}
-console.log(array)
+// let array=[9,8,5,3,4,10];
+// for(let i=0; i<array.length; i++){
+//   for(let j=0; j<i; j++){
+//     if(array[i]<array[j]){
+//       let x=array[i];
+//       array[i]=array[j];
+//       array[j]=x;
+//     }
+//   }
+// }
+// console.log(array)
 
 
 
@@ -83,4 +83,18 @@ console.log(array)
 // console.log(array)
 
 
+
+// function my(){
+//   console.log('hello');
+// }setInterval(my,2000);
+// setTimeout(()=>{
+//   clearInterval(my);
+// },10000);
+
+let interval=setInterval(()=>{
+console.log('interval');
+},2000);
+setTimeout(()=>{
+  clearInterval(interval);
+},10000);
 
