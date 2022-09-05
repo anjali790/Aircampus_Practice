@@ -4,7 +4,27 @@
 }
 
 .para{
-    /* letter-spacing: 1px; */
-    /* word-spacing: 10px; */
+    /* letter-spacing: 1px; don't use*/
+    /* word-spacing: 10px; don't use*/
     line-height: 1.5;
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color:#0b2314;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: #d09543;
+    margin: 10px;
+    position: relative;
+    left: 80px;
+    bottom: 140px;
+    /* z-index: 1; */
 }
