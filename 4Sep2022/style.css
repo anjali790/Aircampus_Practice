@@ -3,11 +3,17 @@
     padding: 0;
 }
 
+:root{
+    --primary-color: yellow;
+    --secondary-color: blue;
+}
+
 .para{
     /* letter-spacing: 1px; don't use*/
     /* word-spacing: 10px; don't use*/
     line-height: 1.5;
-    background-color: blueviolet !important;
+    /* background-color: blueviolet !important; */
+    color: var(--primary-color) ;
 }
 
 .box1{

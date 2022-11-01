@@ -11,9 +11,3 @@
 // }
 // data()
 
-
-function api(){
-    
-}
-fetch('')
-return resizeBy.json()
